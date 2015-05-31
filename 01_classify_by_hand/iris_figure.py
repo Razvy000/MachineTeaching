@@ -23,11 +23,12 @@ for i, (p0, p1) in enumerate(pairs):
     
     for t, marker, c in zip(xrange(3), ">ox", "rgb"):
         # scatter plot 
-        a = ax.scatter(features[target == t, 0], features[target == t, 1], marker=marker, c=c, label=target_names[t])
+        a = ax.scatter(features[target == t, p0], features[target == t, p1], marker=marker, c=c, label=target_names[t])
         
-    ax.legend(shadow=True, fancybox=True)
-    #plt.legend()
+    #ax.legend(shadow=True, fancybox=True)
+    plt.legend(fancybox=True, loc='upper left', framealpha=0.5) 
     
+           
     ax.set_xlabel(feature_names[p0])
     ax.set_ylabel(feature_names[p1])
     ax.set_xticks([])
@@ -37,6 +38,6 @@ fig.tight_layout()
 #fig.show()
 
 # save to file
-fig.set_size_inches(20,10)
+fig.set_size_inches(15,8)
 fig.savefig('iris.png', dpi=240)
 
