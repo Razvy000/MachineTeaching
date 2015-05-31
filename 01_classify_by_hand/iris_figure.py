@@ -1,6 +1,5 @@
 
 from matplotlib import pyplot as plt
-import numpy as np
 from sklearn.datasets import load_iris
 
 # get intuition for iris dataset
@@ -25,7 +24,7 @@ for i, (p0, p1) in enumerate(pairs):
         # scatter plot 
         a = ax.scatter(features[target == t, p0], features[target == t, p1], marker=marker, c=c, label=target_names[t])
         
-    #ax.legend(shadow=True, fancybox=True)
+    # ax.legend(shadow=True, fancybox=True)
     plt.legend(fancybox=True, loc='upper left', framealpha=0.5) 
     
            
@@ -35,9 +34,9 @@ for i, (p0, p1) in enumerate(pairs):
     ax.set_yticks([])
 fig.tight_layout()
 
-#fig.show()
+# fig.show()
 
 # save to file
-fig.set_size_inches(15,8)
+fig.set_size_inches(15, 8)
 fig.savefig('iris.png', dpi=240)
 
