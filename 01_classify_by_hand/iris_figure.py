@@ -22,8 +22,11 @@ for i, (p0, p1) in enumerate(pairs):
     ax = axes.flat[i]
     
     for t, marker, c in zip(xrange(3), ">ox", "rgb"):
-        # plot 
-        ax.scatter(features[target == t, 0], features[target == t, 1], marker=marker, c=c)
+        # scatter plot 
+        a = ax.scatter(features[target == t, 0], features[target == t, 1], marker=marker, c=c, label=target_names[t])
+        
+    ax.legend(shadow=True, fancybox=True)
+    #plt.legend()
     
     ax.set_xlabel(feature_names[p0])
     ax.set_ylabel(feature_names[p1])
@@ -31,5 +34,9 @@ for i, (p0, p1) in enumerate(pairs):
     ax.set_yticks([])
 fig.tight_layout()
 
+#fig.show()
+
 # save to file
-fig.savefig('iris.png')
+fig.set_size_inches(20,10)
+fig.savefig('iris.png', dpi=240)
+
