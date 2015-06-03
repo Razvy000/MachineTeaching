@@ -1,0 +1,27 @@
+measure relatedness of posts
+	do not use edit distance of words
+		ana eat apples
+		apples are good to eat
+		distance = 2 + 3 deletes
+		but still the problem of reordering
+		
+	do use bag of words
+		count occurences of word
+		create a huge vector (vectorization) with important (salient) featues
+		has dimension equal to as many words in the whole dataset
+		(slow) do an Euclidean distance between 2 vectors
+		(fast)
+			exact salient features
+			compute cluster
+			
+			determine cluster for new post
+			from cluster fetch a handful of posts
+		
+cluster them
+see what cluster a new post belongs to
+show relevant questions and answers
+
+
+convert raw test into a bag of words
+
+CountVectorizer
