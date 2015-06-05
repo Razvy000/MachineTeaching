@@ -1,4 +1,4 @@
-measure relatedness of posts
+Measure relatedness of posts
 	do not use edit distance of words
 		ana eat apples
 		apples are good to eat
@@ -16,12 +16,13 @@ measure relatedness of posts
 			
 			determine cluster for new post
 			from cluster fetch a handful of posts
-		
-cluster them
-see what cluster a new post belongs to
-show relevant questions and answers
 
-
-convert raw test into a bag of words
-
-CountVectorizer
+Vectorize posts
+	bag of words
+	by removing stop words
+	by removing seldom words
+	by computing the TFIDF
+	
+Cluster them
+See what cluster a new post belongs to
+Show relevant questions and answers
