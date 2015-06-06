@@ -1,0 +1,5 @@
+AP:
+get from http://www.cs.princeton.edu/~blei/lda-c/ap.tgz
+extract here
+
+
