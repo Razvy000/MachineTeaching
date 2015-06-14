@@ -3,6 +3,7 @@ Machine Learning numpy scipy scikit
 
 todo add wiki parsing
 todo add accuracy recall plots
+todo expolore scikit metrics
 
 [Awesome Wiki](https://github.com/Razvy000/MachineTeaching/wiki)
 ## Welcome to the MachineTeaching wiki!
