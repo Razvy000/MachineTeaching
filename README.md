@@ -39,3 +39,5 @@ Features Z-scored and K=11
 
 ![kmeans digits]
 (https://github.com/Razvy000/MachineTeaching/blob/master/03_clustering_related_posts/digits_sklearn_kmeans.png)
+
+Razvan got surgery
