@@ -41,3 +41,4 @@ Features Z-scored and K=11
 (https://github.com/Razvy000/MachineTeaching/blob/master/03_clustering_related_posts/digits_sklearn_kmeans.png)
 
 Razvan got surgery
+Razvan escaped
