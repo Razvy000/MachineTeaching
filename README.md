@@ -8,6 +8,10 @@ todo expolore scikit metrics
 [Awesome Wiki](https://github.com/Razvy000/MachineTeaching/wiki)
 ## Welcome to the MachineTeaching wiki!
 
+# Me
+![Me]
+(https://github.com/Razvy000/MachineTeaching/blob/master/12_opencv_face_detection/Face1.jpg)
+
 # Iris dataset
 ![Iris Features Figure]
 (https://github.com/Razvy000/MachineTeaching/blob/master/01_classify_by_hand/iris.png)
