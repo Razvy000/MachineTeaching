@@ -61,3 +61,9 @@ Razvan escaped
 
 ##Claude Shannon's information entropy
 ![dim red 3](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/b_entropy_coin.png)
+
+##Mutual Information
+![dim red 4](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/c_mutual_information_1_ok.png)
+
+##and quadratic again
+![dim red 5](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/c_mutual_information_2_ok.png)
