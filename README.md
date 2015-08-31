@@ -58,3 +58,6 @@ Razvan escaped
 
 ##If they are Quadratic pearsonr won't work
 ![dim_red 2](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/a_correlation_pearsonr_2_quad_bad.png)
+
+##Claude Shannon's information entropy
+![dim red 3](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/b_entropy_coin.png)
