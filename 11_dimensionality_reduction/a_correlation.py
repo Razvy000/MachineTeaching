@@ -78,7 +78,7 @@ def plot_correlation():
     # pylab.autoscale(tight=True)
     pylab.grid(True)
     
-    filename = "correlation_pearsonr_1_linear_ok.png"
+    filename = "a_correlation_pearsonr_1_linear_ok.png"
     CHART_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "charts")
     
     if not os.path.exists(CHART_DIR):
@@ -114,7 +114,7 @@ def plot_correlation():
     pylab.autoscale(tight=True)
     pylab.grid(True)
     
-    filename = "correlation_pearsonr_2_quad_bad.png"
+    filename = "a_correlation_pearsonr_2_quad_bad.png"
     pylab.savefig(os.path.join(CHART_DIR, filename), bbox_inches="tight")
     
 if __name__ == '__main__':
