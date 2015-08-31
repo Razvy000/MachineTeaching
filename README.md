@@ -52,6 +52,9 @@ Razvan escaped
 
 
 # Dimensionality Reduction
+
+##Are 2 features correlated?
 ![dim_red 1](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/correlation_pearsonr_1_linear_ok.png)
 
+##If they are Quadratic pearsonr won't work
 ![dim_red 2](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/correlation_pearsonr_2_quad_bad.png)
