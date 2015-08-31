@@ -44,8 +44,14 @@ Features Z-scored and K=11
 ![kmeans digits]
 (https://github.com/Razvy000/MachineTeaching/blob/master/03_clustering_related_posts/digits_sklearn_kmeans.png)
 
+
+
+
 Razvan got surgery
 Razvan escaped
 
-no milk today
-de chichi
+
+# Dimensionality Reduction
+![dim_red 1](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/correlation_pearsonr_1_linear_ok.png)
+
+![dim_red 2](https://github.com/Razvy000/MachineTeaching/blob/master/11_dimensionality_reduction/charts/correlation_pearsonr_2_quad_bad.png)
